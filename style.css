@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+}
+
+.CardPart {
+    min-height: 100vh;
+    text-align: center;
+    background-color: yellow;
+    padding: 2rem;
+}
+
+.birthday-photo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+#Bigwords {
+    font-size: x-large;
+}
+
+.MainBio {
+    min-height: 100vh;
+    padding: 5rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: radial-gradient( circle at 20% 30%, rgba(255, 255, 255, 0.10), transparent 35%), linear-gradient( 135deg, #080808, #242424 55%, #111111);
+}
+
+#Main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 24px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+}
+
+#Main>h1 {
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    margin-bottom: 2rem;
+    letter-spacing: 0.03em;
+}
+
+.bio-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: left;
+}
+
+.bio-content>p {
+    flex: 1;
+    max-width: 750px;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.bio-content a {
+    color: white;
+}
+
+.bio-content a:hover {
+    color: white;
+}
+
+#PortImg {
+    width: 260px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    flex-shrink: 0;
+}
+
+.bio-content p {
+    flex: 1;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .bio-content {
+        flex-direction: column;
+    }
+    #PortImg {
+        width: 100%;
+    }
+}
+
+.portfolio-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*background: #2b2b2b;*/
+}
+
+.engineering-side {
+    padding: 3rem;
+    color: #f5f5f5;
+    background: linear-gradient( rgba(8, 18, 28, 0.82), rgba(8, 18, 28, 0.82)), url("gradDay3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.engineering-side h1,
+.engineering-side h2,
+.engineering-side h3 {
+    letter-spacing: 0.04em;
+}
+
+.project-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-left: 4px solid rgba(255, 255, 255, 0.55);
+}
+
+.project-card p {
+    line-height: 1.6;
+}
+
+.project-type {
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    opacity: 0.7;
+}
+
+.music-side {
+    padding: 3rem;
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("Chris1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.music-side a {
+    color: lightslategray;
+}
+
+.music-side a:hover {
+    color: white;
+}
+
+.Box-card {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 768px) {
+    .portfolio-split {
+        grid-template-columns: 1fr;
+    }
+}
+
+.reveal-up {
+    opacity: 0;
+    filter: blur(8px);
+    transition: opacity 2s ease, transform 2s ease, filter 0.8s ease;
+}
+
+.reveal-left,
+.reveal-right {
+    opacity: 0;
+    filter: blur(8px);
+    transition: opacity 0.8s ease, transform 0.8s ease, filter 0.8s ease;
+}
+
+.reveal-up {
+    transform: translateY(60px);
+}
+
+.reveal-left {
+    transform: translateX(-80px);
+}
+
+.reveal-right {
+    transform: translateX(80px);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
