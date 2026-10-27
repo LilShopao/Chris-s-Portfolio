@@ -1,0 +1,73 @@
+# Chris's Portfolio
+
+A personal portfolio website created to showcase Chris’s work in music, engineering, and creative projects.
+
+## Live Website
+
+[View the portfolio](https://lilshopao.github.io/Chris-s-Portfolio/)
+
+## About the Project
+
+I created this portfolio website for a friend who works in music and engineering but did not yet have a portfolio to showcase his experience and projects.
+
+The goal was to build a professional, accessible website where he could present his background, creative work, technical interests, and future projects in one place.
+
+I began with my own website template and customized the structure, content, layout, and design to better represent Chris and his work.
+
+## Features
+
+- Personal introduction and background
+- Music and engineering-focused content
+- Project and experience sections
+- Responsive layout for desktop and mobile devices
+- Organized navigation between sections
+- Links to relevant work and information
+- Clean, personalized visual design
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+
+## My Contributions
+
+- Created the initial portfolio website structure
+- Adapted the design for Chris’s background and interests
+- Organized his music, engineering, and personal information
+- Customized the layout and styling
+- Improved the content and user experience
+- Added responsive design considerations
+- Published the website using GitHub Pages
+- Tested and refined the website during development
+
+## What I Learned
+
+Through this project, I practiced:
+
+- Designing a website around another person’s goals and identity
+- Structuring a multi-section portfolio website
+- Using HTML and CSS to create a clean layout
+- Using JavaScript to add interactivity
+- Improving website usability and presentation
+- Publishing a website through GitHub Pages
+- Communicating with a user to understand what their website should accomplish
+- Refining an existing design through feedback and experimentation
+
+## Future Improvements
+
+- Add more examples of Chris’s music and engineering work
+- Add project screenshots, audio samples, or videos
+- Improve accessibility throughout the website
+- Add more interactive features
+- Improve the mobile layout
+- Add a contact form
+- Connect the portfolio to a custom domain
+
+## Author
+
+Isaac Jace Cheock
+
+- GitHub: [@LilShopao](https://github.com/LilShopao)
+- Portfolio: [Chris’s Portfolio](https://lilshopao.github.io/Chris-s-Portfolio/)
